@@ -1,0 +1,73 @@
+html{
+    font-family: "Roboto";
+    font-weight: 500;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+   margin: 0px 20px;
+}
+.header{ 
+    text-align: center;
+    font-size: 40px;
+}
+.createT{
+    font-size: 35px;
+}
+#mainInp{
+    width: 80vw;
+    height: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #e4e7eb;
+ 
+}
+.Btn{
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    font-weight: 500;
+    border: 0;
+    color: white;
+    background-color: #4c63b6;
+    border-radius: 10px;
+    margin-top:20px ;
+}
+ul{
+ list-style-type: none;
+ padding: 0px;
+}
+li{
+    height: 40px;
+    width: 70vw;
+    
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 10px;
+   
+}
+.checkboxInp{
+    height: 34px;
+    width: 30px;
+    margin-right: 10px;
+}
+.labelDiv{
+    display: flex;
+    flex-direction: row;
+    border-left: 5px solid #4c63b6 ;
+    background-color:  #e6f6ff;
+    width: 100vw;
+    padding-left:10px ;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.underline{
+    text-decoration: line-through;
+}
